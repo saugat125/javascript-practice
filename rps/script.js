@@ -57,7 +57,7 @@ function showResult(){
     }
     else if(computer_choice==='Scissors' && user_choice==='Paper'){
         Result = "Computer Wins";
-    }
+    } 
     result.innerHTML = Result;
 }
 
