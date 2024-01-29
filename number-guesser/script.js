@@ -21,7 +21,7 @@ function checkNumber(){
         }
         count = count + 1;
         if(count>3){
-            result.innerHTML = "You only had 3 chances you lost"
+            result.innerHTML = "You only had 3 chances you lost. <br>The correct number was " + random_number;
         }
     }
     else{
