@@ -7,5 +7,5 @@ let person = {
 console.log(person.name);
 console.log(person['name']);
 
-person.country = 'Pakistan';
+person.country = 'China';
 console.log(person);
