@@ -1,9 +1,14 @@
+body{
+    background-color: rgb(119, 169, 209);
+}
+
 ul li{
     list-style: none;
     background-color: red;
     display: inline-block;
     padding: 30px;
     border-radius: 50%;
+    transition: opacity 0.4s ease;
 }
 
 ul{
@@ -13,3 +18,8 @@ ul{
     gap: 40px;
     margin-top: 10%;
 }
+
+.invisible{
+    opacity: 0;
+}
+
