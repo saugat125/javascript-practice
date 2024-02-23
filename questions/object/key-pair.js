@@ -9,7 +9,6 @@ function keyPair(obj1, obj2, key){
     result.push(first);
     result.push(second);
     return result;
-
 }
 
 let cat1 = { name: 'jinkee', breed: 'calico' };
