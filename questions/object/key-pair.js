@@ -2,8 +2,8 @@
 // The function should return an array containing the values of the given key in `obj1` and `obj2`.
 // See the examples.
 
-function keyPair(obj1, obj2, key){
-    let result = [];
+function keyPair(obj1,obj2,key){
+    const result = [];
     let first = obj1[key];
     let second = obj2[key];
     result.push(first);
